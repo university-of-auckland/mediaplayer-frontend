@@ -1,0 +1,22 @@
+@import '~src/theme/media-mixins';
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: var(--space-s);
+}
+
+.footer,
+.footer a {
+  color: var(--color-light);
+  text-decoration: none;
+}
+
+@include phone {
+  .footer {
+    font-size: 0.667rem;
+  }
+}

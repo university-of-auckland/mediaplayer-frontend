@@ -1,0 +1,58 @@
+/******************Colors**************************/
+:root {
+  /*uoa blues*/
+
+  --color-primary: #00467f;
+  --color-primary-rgb: 0, 70, 127;
+  --color-primary-tint: #0062b2;
+
+  --color-secondary: #009ac7;
+  --color-secondary-rgb: 0, 154, 199;
+  --color-secondary-tint: #00a9db;
+
+  --color-tertiary: #8d9091;
+  --color-tertiary-rgb: 141, 144, 145;
+  --color-tertiary-tint: #999999;
+
+  /*greys*/
+
+  /*light*/
+  --color-light: #ffffff;
+  --color-light-rgb: 255, 255, 255;
+  --color-light-1: #f2f2f2;
+  --color-light-1-rgb: 242, 242, 242;
+  --color-light-2: #bec3c4;
+
+  /*medium*/
+  --color-medium: #d9d9d9;
+  --color-medium-rgb: 217, 217, 217;
+
+  /*dark*/
+  --color-dark: #000000;
+  --color-dark-rgb: 0, 0, 0;
+
+  --color-dark-1: #4a4a4c;
+  --color-dark-1-rgb: 74, 74, 76;
+
+  --color-dark-2: #404040;
+  --color-dark-2-rgb: 64, 64, 64;
+  --color-dark-2-tint: #9f9f9f;
+
+  --color-dark-3: #333333;
+  --color-dark-3-rgb: 51, 51, 51;
+  --color-dark-3-tint: #747778;
+
+  /* success */
+  --color-success: #2ec95c;
+  --color-success-rgb: 42, 201, 92;
+
+  /* warning */
+  --color-warning: #fdd835;
+  --color-warning-rgb: 253, 216, 52;
+
+  /*error*/
+  --color-error: #ed0c0c;
+  --color-error-rgb: 237, 12, 12;
+  --color-error-toast: #f53d3d;
+}
+/***********************End Colors********************/

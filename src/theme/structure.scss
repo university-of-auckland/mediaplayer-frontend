@@ -1,0 +1,16 @@
+.content-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+
+.inner-content {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 var(--space-m) var(--space-4xl) var(--space-m);
+}
+
+:root {
+  font-size: 1.125rem !important;
+}

@@ -1,0 +1,148 @@
+@import './colorVariables';
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-tertiary {
+  color: var(--color-tertiary);
+}
+
+.color-dark {
+  color: var(--color-dark);
+}
+
+.color-dark-1 {
+  color: var(--color-dark-1);
+}
+
+.color-dark-2 {
+  color: var(--color-dark-2);
+}
+
+.color-dark-3 {
+  color: var(--color-dark-3);
+}
+
+.color-dark-3-tint {
+  color: var(--color-dark-3-tint);
+}
+
+.color-medium {
+  color: var(--color-medium);
+}
+
+.color-light {
+  color: var(--color-light);
+}
+
+.color-light-1 {
+  color: var(--color-light-1);
+}
+
+.color-light-2 {
+  color: var(--color-light-2);
+}
+
+.color-error {
+  color: var(--color-error);
+}
+
+.color-success {
+  color: var(--color-success);
+}
+
+.color-warning {
+  color: var(--color-warning);
+}
+
+.border-primary {
+  border: 1px solid var(--color-primary);
+}
+
+.border-top-primary {
+  border-top: 1px solid var(--color-primary);
+}
+
+.border-right-primary {
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.border-bottom-primary {
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.border-left-primary {
+  border-left: 1px solid var(--color-primary);
+}
+
+.border-light-2 {
+  border: 1px solid var(--color-light-2);
+}
+
+.border-top-light-2 {
+  border-top: 1px solid var(--color-light-2);
+}
+
+.border-right-light-2 {
+  border-right: 1px solid var(--color-light-2);
+}
+
+.border-bottom-light-2 {
+  border-bottom: 1px solid var(--color-light-2);
+}
+
+.border-left-light-2 {
+  border-left: 1px solid var(--color-light-2);
+}
+
+.border-error {
+  border: 2px solid var(--color-error);
+}
+
+.border-bottom-error {
+  border-bottom: 2px solid var(--color-error);
+}
+
+.background-primary {
+  background-color: var(--color-primary);
+}
+
+.background-secondary {
+  background-color: var(--color-secondary);
+}
+
+.background-tertiary {
+  background-color: var(--color-tertiary);
+}
+
+.background-dark-1 {
+  background-color: var(--color-dark-1);
+}
+
+.background-dark-2 {
+  background-color: var(--color-dark-2);
+}
+
+.background-dark-3 {
+  background-color: var(--color-dark-3);
+}
+
+.background-medium {
+  background-color: var(--color-medium);
+}
+
+.background-light {
+  background-color: var(--color-light);
+}
+
+.background-light-1 {
+  background-color: var(--color-light-1);
+}
+
+.background-light-2 {
+  background-color: var(--color-light-2);
+}

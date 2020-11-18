@@ -1,0 +1,9 @@
+<ion-content class="ion-padding">
+  <div id="video-container" shaka-controls="true" *ngIf="browserSupported">
+    <video id="video" poster="/assets/uoa.jpg" autoplay></video>
+  </div>
+  <div *ngIf="!browserSupported">
+    <p>Sorry, your browser is not supported.</p>
+    <p>Please use a recent version of <a href="https://www.google.com/chrome/">Google Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>.</p>
+  </div>
+</ion-content>

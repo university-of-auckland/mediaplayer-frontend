@@ -1,0 +1,24 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 2vw 16px 2vw;
+  height: 80px;
+  background-color: var(--color-light-1);
+  //makes header full width of screen
+  width: 100vw;
+  margin-bottom: var(--space-5xl);
+
+  .logo-wrapper {
+    position: relative;
+    width: 24vw;
+    max-width: 100px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.flex-same-size {
+  flex: 1 1 0;
+}

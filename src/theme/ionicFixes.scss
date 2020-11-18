@@ -1,0 +1,86 @@
+/*********Ionic 4 Fixes**********/
+
+ion-button {
+  text-transform: none;
+  @extend .font-default;
+  letter-spacing: normal;
+  white-space: normal;
+  ion-icon {
+    min-width: 26px;
+  }
+  span {
+    padding-bottom: var(--space-xs);
+    text-align: initial;
+  }
+}
+
+.sc-ion-card-md-h {
+  @extend .font-default;
+  --color: (--color-dark-1);
+}
+
+ion-card-header + .card-content-md {
+  padding-top: var(--space-s);
+  padding-bottom: var(--space-s);
+}
+
+.alert-tappable.alert-checkbox,
+.alert-tappable.alert-radio {
+  height: auto;
+  contain: content;
+}
+
+.alert-checkbox-label.sc-ion-alert-md,
+.alert-checkbox-label.sc-ion-alert-ios,
+.alert-radio-label.sc-ion-alert-md,
+.alert-radio-label.sc-ion-alert-ios {
+  white-space: normal;
+  padding: 10px 26px;
+}
+
+.alert-radio-icon.sc-ion-alert-md,
+.alert-checkbox-icon.sc-ion-alert-md {
+  left: 13px;
+}
+.in-item {
+  max-width: 100%;
+}
+
+.item.sc-ion-label-md-h,
+.item .sc-ion-label-md-h {
+  --color: var(--color-primary);
+}
+
+.sc-ion-card-md-h,
+.alert-wrapper.sc-ion-alert-md {
+  border-radius: 0;
+}
+
+@media only screen and (min-height: 768px) and (min-width: 768px) {
+  .sc-ion-modal-md-h {
+    --width: 540px;
+    --height: 500px;
+  }
+}
+
+.swiper-pagination-bullet {
+  opacity: 1;
+}
+
+.card-content-md, .card-content-ios {
+  @extend .font-default;
+  h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: inherit;
+  }
+  p {
+    @extend .font-default;
+  }
+}
+
+/*********End Ionic 4 Fixes**********/
